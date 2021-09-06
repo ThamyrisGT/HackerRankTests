@@ -60,15 +60,18 @@ das pessoas selecionadas
   int: soma das pontuações selecionadas
 
 **Ex:** 
+
 pontuacao =[10,20,10,15,5,30,20]
 tamanho_do_time=2
 k=3
 
 **1° rodada:** 
+
 [10,20,10] [5,30,20]
 pontuação 30 é removida da lista
 pontuacao=[10,20,10,15,5,20]
 **2° rodada:**
+
 [10,20,10] [15,5,20]
 pontuação 20 índice 1 é removida da lista
 pontuacao=[10,10,15,5,20]
@@ -76,7 +79,8 @@ pontuacao=[10,10,15,5,20]
 A soma das pontuações é 30+20=50
 
 **Restrições:**
+
 1<= pontuacao[i] <= 109
-1<= tamnho_do_time <=n
+1<= tamanho_do_time <=n
 1<= k <=n
 
